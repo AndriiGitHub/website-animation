@@ -1054,7 +1054,7 @@
       <ellipse class="cls-1" cx="715.2" cy="291.1" rx="2.05" ry="2.06"/>
     </clipPath>
   </defs>
-  <title>platform_03_small</title>
+  <title>platform_04_small</title>
   <g id="wall">
     <g>
       <rect class="cls-2" x="0.07" width="109.18" height="109.18"/>
@@ -1999,33 +1999,29 @@
     <rect id="r-1" class="cls-6" x="402.96" y="248.55" width="171.41" height="12.14" rx="1.58" ry="1.58"/>
     <path class="cls-7" d="M572.79,239.44h-2.11c0,0.09.06,0.17,0.08,0.27h0v0a2.36,2.36,0,0,1,0,1.2v14H403.22v-5.88a0.3,0.3,0,0,1-.07.1l-0.07.11a2.65,2.65,0,0,1-.12.26v8.36c0,1.54.71,2.75,1.58,2.75H572.79c0.87,0,1.58-1.24,1.58-2.75V242.2C574.37,240.68,573.66,239.44,572.79,239.44Z"/>
   </g>
-  <animateTransform xlink:href="#car"
+    <animateTransform xlink:href="#car"
     attributeName="transform"
     type="translate"
-    dur="6s"
+    dur="8s"
     begin="1s"
     values="0 0; -208 0; -208 0"
-    keyTimes="0; 0.5; 1"
+    keyTimes="0; 0.4; 1"
     fill="freeze"
     repeatCount="indefinite"
     repeatDur="02:30" 
-    id="car-move-anim"/>
+    id="carmoveanim" />
   <animateTransform xlink:href="#platform"
     attributeName="transform"
     type="translate"
-    dur="6s"
-    begin="1s"
+    dur="8s"
     values="0 0; -208 -28; -208 -28"
-    keyTimes="0; 0.5; 1"
+    keyTimes="0; 0.4; 1"
     fill="freeze"
     repeatCount="indefinite"
     repeatDur="02:30" 
-    begin="car-move-anim.begin" 
-    id="platform-move-anim"/>  
+    begin="carmoveanim.begin" 
+    id="platformmoveanim" />
 </svg>
-
-
-
 
   <script src="dependencies/jquery.slim.min.js"></script>
   <script src="dependencies/popper.min.js"></script>
